@@ -35,14 +35,14 @@ create table CORSO (
      idCorso char(1) not null,
      constraint IDCORSO primary key (idCorso));
 
-create table SAT (
+/*create table SAT (
 );
 
 create table CORSO_SERALE (
 );
 
 create table AGONISTICA (
-);
+);*/
 
 create table CAMPO (
      numCampo char(1) not null,
@@ -59,8 +59,8 @@ create table GIOCATORE_SOCIO (
      InizioAffiliazione char(1) not null,
      FineAffiliazione char(1) not null);
 
-create table GIOCATORE_NONSOCIO (
-);
+/*create table GIOCATORE_NONSOCIO (
+);*/
 
 create table PERSONA (
      codFiscale char(1) not null,
